@@ -1,0 +1,52 @@
+.promo {
+	min-height: 580px;
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+	}
+
+	&__image {
+		display:flex;
+		width: 430px;
+		height: 610px;
+		margin: 20px 180px 0 0;
+		position: relative;
+
+		@media screen and (max-width: 768px) {
+			margin-left: auto;
+		}
+
+		@media screen and (max-width: 375px) {
+			width: 280px;
+			height: 398px;
+			margin: 0 auto;
+		}
+	}
+
+	&__sticker {
+		display: block;
+		position: absolute;
+		bottom: 55%;
+		left: -23%;
+
+		@media screen and (max-width: 768px) {
+			bottom: 60%;
+			left: 7%;
+		}
+
+		@media screen and (max-width: 768px) {
+			width: 99px;
+			height: 99px;
+			bottom: 16%;
+			left: 12%;
+		}
+	}
+
+	&__mainimage {
+		position: relative;
+	}
+}
