@@ -1,0 +1,14 @@
+.taste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9960F6;
+  max-width: 525px;
+}
+.taste__image {
+  width: 518px;
+  height: 345px;
+  display: block;
+}
+
+/*# sourceMappingURL=taste.css.map */

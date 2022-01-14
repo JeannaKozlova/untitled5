@@ -1,0 +1,25 @@
+.structure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8556F8;
+}
+.structure__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.structure__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  color: white;
+  list-style-type: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=structure.css.map */

@@ -1,0 +1,84 @@
+.footer {
+	min-height: 500px;
+	background-color: #7A54F9;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+
+	@media screen and (max-width: 375px) {
+		flex-direction: column;
+		min-height: 700px;
+	}
+
+	&__copyright {
+		font-family: "Inter", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 15px;
+		letter-spacing: .3px;
+		color: white;
+		width: 275px;
+		margin-top: 142px;
+
+		@media screen and (max-width: 768px) {
+			margin-top: 0;
+			position: absolute;
+			bottom: 27px;
+			left: 65px;
+		}
+	}
+
+	&__menu {
+		list-style-type: none;
+		margin: 100px 145px 0 0;
+		width: 109.5px;
+
+		@media screen and (max-width: 768px) {
+			margin: 120px 0 0;
+		}
+
+		@media screen and (max-width: 375px) {
+			margin: 0 auto 50px;
+		}
+
+		&__item {
+			font-family: "Inter", sans-serif;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 28px;
+			letter-spacing: .3px;
+			color: #FFFFFF;
+			padding-bottom: 3px;
+			&:first-child {
+				font-weight: 500;
+				font-size: 23px;
+				line-height: 33px;
+				padding-bottom: 20px;
+			}
+			&:hover {
+				opacity: .7;
+			}
+		}
+		&_contacts {
+			font-size: 16px;
+		}
+	}
+
+	&__logo {
+		width: 300px;
+		height: 300px;
+		margin: 100px 247px 100px 0;
+
+		@media screen and (max-width: 768px) {
+			width: 200px;
+			height: 200px;
+			margin: 120px 70px 156px 0px;
+		}
+
+		@media screen and (max-width: 375px) {
+			margin:-20px auto 82px;
+		}
+	}
+}
